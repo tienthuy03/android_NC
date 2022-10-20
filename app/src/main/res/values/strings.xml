@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ASMMOB201</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="facebook_app_id">804812947404699</string>
+    <string name="facebook_client_token">3837d74a145254c1c2a6118877949951</string>
+</resources>

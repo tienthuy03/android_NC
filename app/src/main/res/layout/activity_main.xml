@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/custom">
+
+        <ImageView
+            android:id="@+id/ivThoat"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_out"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:cardCornerRadius="100dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="30dp">
+            <ImageView
+                android:layout_gravity="center"
+                android:src="@drawable/support"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:layout_marginTop="80dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hỗ trợ"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/custom_layout"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear">
+
+            <Button
+                android:id="@+id/btnkhoahoc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_layout1"
+                android:drawableTop="@drawable/khoahoc"
+                android:padding="40dp"
+                android:text="Khoá học"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/btnxahoi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_layout1"
+                android:drawableTop="@drawable/sc_xh"
+                android:padding="40dp"
+                android:text="Xã hội"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear1">
+
+            <Button
+                android:id="@+id/btnew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableTop="@drawable/new_"
+                android:layout_weight="1"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:padding="40dp"
+                android:text="Tin tức"
+                android:background="@drawable/custom_layout1"
+                app:backgroundTint="@null"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/btnmap"
+                android:drawableTop="@drawable/maps_img"
+                android:background="@drawable/custom_layout1"
+                android:layout_weight="1"
+                android:text="Bản đồ"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="10dp"
+                android:padding="40dp"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                app:backgroundTint="@null"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
