@@ -32,7 +32,6 @@ public class KhoaHocCuaBanActivity extends AppCompatActivity {
 
         Recycledkmn = findViewById(R.id.Recycle);
         TextView txtContent = findViewById(R.id.txtContent);
-        ImageView ivhinh = findViewById(R.id.ivhinh);
         intentFilter = new IntentFilter();
         intentFilter.addAction("DSMonHoc");
         intentFilter.addAction("DKMonHoc");

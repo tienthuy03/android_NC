@@ -1,8 +1,5 @@
 package com.example.asmmob201.service;
 
-
-
-
 import com.example.asmmob201.ModelJson.data;
 
 
@@ -13,5 +10,4 @@ public interface ServiceAPI {
     String BASE_Service = "https://apis.dinhnt.com/";
     @GET("edu.json")
     Observable<data> getData();
-
 }

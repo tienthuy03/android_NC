@@ -31,10 +31,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class DKKhoaHocAdapter extends RecyclerView.Adapter<DKKhoaHocAdapter.ViewHolder> {
-    private Context context;
-    private ArrayList<MonHoc> list;
-    private int id;
-    private boolean isAll;
+    private final Context context;
+    private final ArrayList<MonHoc> list;
+    private final int id;
+    private final boolean isAll;
     public DKKhoaHocAdapter(Context context, ArrayList<MonHoc> list, int id, boolean isAll) {
         this.context = context;
         this.list = list;

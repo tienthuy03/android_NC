@@ -11,7 +11,6 @@ import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private AlphaAnimation buttonClick = new AlphaAnimation(4F, 0.5F);
